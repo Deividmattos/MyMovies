@@ -3,10 +3,31 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
     <link rel="stylesheet" href="css/global.css" />
-    <title>MyMovies</title>
+    <title>Lista de filmess para assistir</title>
   </head>
   <body>
+    <header>
+      <h2><i class="bi bi-film"></i>MyMovies</h2>
+      <section id="search-container">
+        <div class="input_wrapper movie_name_wrapper">
+          <label for="movie_name">Nome:</label>
+          <input type="text" id="movie_name" />
+        </div>
+        <div class="input_wrapper movie_year_wrapper">
+          <label for="movie_year">Ano:</label>
+          <input type="text" id="movie_year" />
+        </div>
+        <button class="btn_seach"><i class="bi bi-search"></i></button>
+      </section>
+    </header>
+    <main>
+      <h1>Comeceagora a sua lista de filmes</h1>
+    </main>
     <script src="js/script.js"></script>
   </body>
 </html>
