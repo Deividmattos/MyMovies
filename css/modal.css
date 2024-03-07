@@ -34,3 +34,19 @@
   padding: 1rem 3rem;
   border-radius: 10px;
 }
+#movie_title {
+  display: flex;
+  padding: 1rem 0;
+}
+.modal_body {
+  display: flex;
+}
+#movie_poster {
+  border-radius: 10px;
+}
+.movie_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 50%;
+}
