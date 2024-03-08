@@ -1,4 +1,3 @@
-const overlay = document.getElementById("modal_overlay");
 const background = document.getElementById("modal_background");
 
 overlay.classList.add("open");
